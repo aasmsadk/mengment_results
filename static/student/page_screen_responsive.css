@@ -1,0 +1,384 @@
+@media screen and (max-width:981px)
+{
+    #language-selector
+    {
+        display:none;
+    }
+    #site-toolbar
+    {
+        position:relative;
+        width:600px;
+    }
+    #content-panels
+    {
+        width:600px;
+    }
+    #quick-contact
+    {
+        width: 240px;
+        margin-left: 0;
+        float: left;
+    }
+    #cover-photo
+    {
+        width: 600px;
+        height: 146px;
+        margin:0 auto;
+    }
+    #cover-photo img
+    {
+        width: 600px;
+        height: 146px;
+    }
+    #user-box
+    {
+        width: 580px;
+        margin-left: 10px;
+    }
+    #user-data
+    {
+        width: 580px;
+        height:88px;
+        background-color:#fff;
+        border-bottom-left-radius:7px;
+        border-bottom-right-radius:7px;
+        border:1px solid #808080;
+    }
+    #user-data div.middle
+    {
+        display: block;
+        width: 566px;
+        height: 88px;
+        background-image:none;
+    }
+    #user-data div.left
+    {
+        min-height: 44px;
+        background-image:none;
+    }
+    #user-data div.right
+    {
+        min-height: 44px;
+        background-image:none;
+    }
+    #user-info
+    {
+        width: 406px;
+        margin-left: 8px;
+    }
+    #user-info p
+    {
+        line-height: 44px;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    #user-photo
+    {
+        top:-36px;
+        left: 414px;
+    }
+    #content-box
+    {
+        position:inherit;
+        width: 600px;
+        float:right;
+        margin:0;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        background-color:transparent;
+    }
+    #copyright
+    {
+        width:100%;
+        height:100%;
+        margin:0;
+    }
+    #copyright p
+    {
+        width: 100%;
+        height:90%;
+        margin:0;
+        padding:0;
+        padding-top:2%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #user-control
+    {
+        margin-right:154px;
+    }
+    #page-box
+    {
+        width: 600px;
+        margin-left: 0px;
+    }
+    #page-header
+    {
+        width: 600px;
+    }
+    #page-header div.middle
+    {
+        width: 588px;
+    }
+    #page-title
+    {
+        width: 574px;
+    }
+    #update-status
+    {
+        display: block;
+        width: 186px;
+        height:35px;
+        float: left;
+        line-height: 35px;
+        font-size: 1.0em;
+        font-weight: bold;
+        padding-left: 0px;
+        background-position: right;
+        padding-right: 32px;
+        color: #fff;
+        background-image: url("images/update-status-bg.jpg");
+    }
+    #page-content
+    {
+        display: block;
+        width: 599px;
+        min-height: 100px;
+        height:auto !important;
+        height: 100px;
+        background-color: #fff;
+        float: left;
+        border: 1px solid #bdbdbd;
+        border-top: none;
+    }
+    #logo
+    {
+        margin-right:0px;
+    }
+    #right-menu
+    {
+        background-color:transparent;
+        display:none;
+        position:absolute;
+        right:0px;
+        top:61px;
+        z-index : 100;
+    }
+    #page-header div.left,#page-header div.right
+    {
+        display:none;
+    }
+    #page-header div.middle
+    {
+        float:right;
+        width:100%;
+    }
+    #page-header div.middle p
+    {
+        width:98%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    #header
+    {
+        width:100%;
+        height:60px;
+    }
+    #content
+    {
+        display:block;
+        width:100%;
+        min-height:90%;
+    }
+    #footer
+    {
+        width:100%;
+        height:10%;
+    }
+    #content-panels
+    {
+        width:100%;
+        min-height:100%;
+        display:block;
+    }
+    #quick-contact
+    {
+        display:none;
+    }
+    #site-toolbar
+    {
+        position:relative;
+        width:100%;
+    }
+    #logo
+    {
+        float:left;
+    }
+    #cover-photo
+    {
+        display:block;
+        width:100%;
+        height:100%;
+    }
+    #cover-photo img
+    {
+        width:100%;
+        height:100%;
+    }
+    #user-box
+    {
+        width:100%;
+        min-height:100%;
+        height:auto;
+        margin:0;
+        padding:0;
+        display:block;
+    }
+    #user-control
+    {
+        display:block;
+        float:right;
+        margin-right: 10%;
+        margin-left:10%;
+    }
+    #print
+    {
+        display:none;
+    }
+    #content-box
+    {
+        position:inherit;
+        width: 96%;
+        float:right;
+        margin:0 2%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        background-color:transparent;
+    }
+    #page-box
+    {
+        display:block;
+        width:100%;
+        margin:0;
+        padding:0;
+        border:none;
+    }
+    #page-header
+    {
+        width: 100%;
+    }
+    #page-header div.middle
+    {
+        width: 100%;
+    }
+    #page-title
+    {
+        width: 100%;
+    }
+    #page-header div.middle p
+    {
+        width:89%;
+    }
+    #update-status
+    {
+        display: none;
+        width: 186px;
+        height:35px;
+        float: left;
+        line-height: 35px;
+        font-size: 1.0em;
+        font-weight: bold;
+        padding-left: 0px;
+        background-position: right;
+        padding-right: 32px;
+        color: #fff;
+        background-image: url("images/update-status-bg.jpg");
+    }
+    #page-content
+    {
+        display: block;
+        width: 100%;
+        min-height: 100%;
+        height:auto !important;
+        height: 100px;
+        margin:0;
+        padding:0;
+        border:none;
+    }
+    #user-data
+    {
+        display:block;
+        width:96%;
+        min-height:100%;
+        height:auto;
+        margin:0;
+        padding:0;
+        margin-right:2%;
+        margin-left:2%;
+        float:right;
+    }
+    #user-data div.left,#user-data div.right
+    {
+        display:none;
+    }
+    #user-data div.middle
+    {
+        display:block;
+        width:100%;
+        min-height:100%;
+        height:auto;
+    }
+    #user-photo
+    {
+        display:block;
+        position:inherit;
+        left:auto;
+        top:auto;
+        right:auto;
+        bottom:auto;
+        float:right;
+        margin:0;
+        margin-right:2%;
+        padding:0;
+        width:28%;
+        height:100%;
+        background-size:contain;
+        margin-bottom:6px;
+        margin-top:6px;
+    }
+    #user-photo img
+    {
+        display:block;
+        width:90%;
+        margin:5% 5%;
+        height:auto;
+    }
+    #user-info
+    {
+        display:block;
+        float:left;
+        width: 70%;
+        min-height:100%;
+        height:auto;
+        margin:0;
+        margin-top:6px;
+    }
+    #user-info p
+    {
+        display:block;
+        width:96%;
+        height:auto;
+        line-height: 44px;
+        font-size: 0.85em;
+        font-weight: bold;
+        word-wrap:normal;
+        padding:0 2%;
+    }
+    #user-info p span.separator
+    {
+        display:block;
+        clear:both;
+    }
+
+}

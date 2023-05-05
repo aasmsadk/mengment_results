@@ -1,0 +1,513 @@
+body
+{
+    background-color: #e8e8e8;
+    background-image: url("images/background.jpg");
+}
+#container
+{
+    display: table;
+    width: 100%;
+    height:10%;
+    float: left;
+}
+#header,#content,#footer
+{
+    display:table-row;
+}
+#header
+{
+    height: 60px;
+    background-color: #035a90;
+}
+#footer
+{
+    height: 70px;
+    background-image: url("images/dark_bg.png");
+    background-repeat: repeat;
+}
+#site-toolbar
+{
+    width: 982px;
+    height: 60px;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 1em;
+}
+#logo
+{
+    display: block;
+    width: 260px;
+    height: 60px;
+    float: right;
+    background-image: url("images/logo.jpg");
+    background-repeat:no-repeat;
+}
+#quick-contact
+{
+    display:block;
+    height: 60px;
+    margin-right: 10px;
+    float: right;
+    background-image: url("images/contact.gif");
+    background-repeat:no-repeat;
+}
+#quick-contact ul
+{
+    display: block;
+    _display: inline;/*fixes ie6 margin extra margin*/
+    float: left;
+    margin-left:50px;
+    margin-top:4px;
+    width: 267px;
+    height: 47px;
+}
+#quick-contact ul li
+{
+    float: left;
+    clear:both;
+    word-wrap:normal;
+    text-align:left;
+    line-height:26px;
+    height: 24px;
+}
+#language-selector
+{
+    position: relative;
+    width: 195px;
+    height: 60px;
+    float: left;
+    background-image: url("images/language.jpg");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+#language-selector h4
+{
+    display: block;
+    _display: inline;/*ie6 fix for margin*/
+    width: 72px;
+    height: 60px;
+    float: right;
+    line-height: 60px;
+    margin-left: 0px;
+    margin-right: 50px;
+    direction: rtl;
+}
+#language-selector ul
+{
+    position: absolute;
+    top:0;
+    left: 0px;
+    display: block;
+    width: 76px;
+    min-height: 60px;
+    height:auto !important;/* new browsers */
+    height: 60px;/* IE6: treaded as min-height */
+    z-index: 1;
+}
+#language-selector ul li
+{ 
+    display: none;
+    width: 76px;
+    min-height: 30px;
+    height:auto !important;/* new browsers */
+    height: 30px;/* IE6: treaded as min-height */
+    float: left;
+    text-indent: 5px;
+    direction: rtl;
+    text-align: right;
+    cursor: pointer;
+}
+#language-selector li.selected
+{ 
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    background-image: url("images/drop.gif");
+    background-repeat:no-repeat;
+    background-position: left;
+}
+#language-selector li a
+{ 
+    display: block;
+    width: 76px;
+    min-height: 30px;
+    height:auto !important;/* new browsers */
+    height: 30px;/* IE6: treaded as min-height */
+    background-color: #fff;
+    text-decoration: none;
+    color:#012840;
+    _color:#012840;/*ie fix for anchor color*/
+    float: left;
+    line-height: 30px;
+}
+#language-selector li a:hover
+{ 
+    background-color: #012840;
+    color:#fff;
+}
+#language-selector ul:hover li
+{
+    display: block;
+    border-bottom: 1px solid #000;
+}
+#language-selector ul:hover li.selected
+{
+    display: block;    
+    background-color: #054c78;
+    border-bottom: 1px solid #000;
+}
+#copyright
+{
+    width: 982px;
+    height: 70px;
+    margin: auto;
+}
+#copyright p
+{
+    display: block;
+    width: 600px;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 1.15em;
+    color:#fff;
+    direction: rtl;
+}
+#content-panels
+{
+    display: block;
+    width: 982px;
+    min-height: 300px;
+    height:auto !important;/* new browsers */
+    height: 300px;/* IE6: treaded as min-height */
+    margin: 20px auto;
+    direction: rtl;
+}
+#show-panel
+{
+    display: block;
+    _display: inline;
+    width: 491px;
+    min-height: 400px;
+    height:auto !important;/* new browsers */
+    height: 400px;/* IE6: treaded as min-height */
+    float:right;
+    background-image: url("images/unversity_logos.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+}
+#login-panel
+{
+    display: block;
+    _display: inline;
+    width: 491px;
+    min-height: 400px;
+    height:auto !important;/* new browsers */
+    height: 400px;/* IE6: treaded as min-height */
+    float: left;
+}
+.showAsDialog
+{
+    position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: none;
+}
+#video-promo-l1
+{
+     display: block;
+    _display: inline;
+    width: 232px;
+    height: 164px;
+    float: right;
+    margin-top: 294px;
+    margin-left: 0px;
+    margin-right: 34px;
+}
+#login-form
+{
+    display: block;
+    _display: inline;
+    width: 287px;
+    min-height: 100px;
+    height:auto !important;/* new browsers */
+    height: 100px;/* IE6: treaded as min-height */
+    float: left;
+}
+#login-form div.up
+{
+    display: block;
+    _display: inline;
+    width: 287px;
+    height: 14px;
+    background-image: url("images/login_up_bg.png");
+    background-repeat:no-repeat;
+    float: left;
+}
+#login-form div.middle
+{
+    display: block;
+    _display: inline;
+    width: 287px;
+    min-height: 100px;
+    height:auto !important;/* new browsers */
+    height: 100px;/* IE6: treaded as min-height */
+    background-image: url("images/login_middle_bg.png");
+    background-repeat: repeat-y;
+    _margin-top: -3px;
+    float: left;
+}
+#login-form div.buttom
+{
+    display: block;
+    _display: inline;
+    width: 287px;
+    height: 14px;
+    background-image: url("images/login_buttom_bg.png");
+    background-repeat:no-repeat;
+    float: left;
+}
+#login-info,#login-error
+{
+    display:block;
+    _display:inline;
+    background-color:#035a90;
+    width:190px;
+    min-height: 30px;
+    height:auto !important;/* new browsers */
+    height: 30px;/* IE6: treaded as min-height */
+    float:left;
+    margin-left:25px;
+    padding-right:40px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-image: url("images/info.gif");
+    background-repeat:no-repeat;
+    background-position:right;
+    border-radius:10px;
+    margin-top:8px;
+    color:#fff;
+    font-weight:bold;
+    word-spacing:2px;
+}
+#login-error
+{
+    background-color:#ff2324;
+    background-image: url("images/error.gif");
+    background-repeat:no-repeat;
+}
+#login-info p ,#login-error p
+{
+    text-align:right;
+}
+#onetree_login
+{
+    display: block;
+    width: 244px;
+    min-height: 100px;
+    height:auto !important;/* new browsers */
+    height: 100px;/* IE6: treaded as min-height */
+    margin: 0 auto;
+    background-image: url("images/onetree_logo.png");
+    background-repeat:no-repeat;
+    background-position: 0 15px;
+}
+#onetree_login ul
+{
+    display: block;
+    width: 244px;
+    min-height: 100px;
+    height:auto !important;/* new browsers */
+    height: 100px;/* IE6: treaded as min-height */
+    margin-top: 114px;
+    float: left;
+}
+#onetree_login ul li
+{
+    display: block;
+    position: relative;
+    width: 244px;
+    height: 38px;
+    float: left;
+    margin-bottom: 12px;
+    background-image: url("images/input_bg.png");
+    background-repeat:no-repeat;
+}
+#onetree_login ul li:last-child
+{
+    display: block;
+    width: 244px;
+    height: 38px;
+    float: left;
+    margin-bottom: 12px;
+    background-image: none;
+}
+#onetree_login select
+{
+    display: block;
+    _display: inline;
+    width: 230px;
+    height: 28px;
+    float: right;
+    border: none;
+    background-color: #fff;
+    color: #012840;
+    margin-left: 0px;
+    margin-right: 7px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+#onetree_login input
+{
+    display: block;
+    _display: inline;
+    width: 230px;
+    height: 28px;
+    border:none;
+    float: left;
+    color: #012840;
+    margin-left: 7px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+#onetree_login input.button
+{
+    float: left;
+    display: block;
+    width: 75px;
+    height: 38px;
+    background-image: url("images/button_bg.png");
+    background-repeat:no-repeat;
+    border:none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    line-height: 38px;
+}
+#onetree_login input.button:hover
+{
+    background-position: 0px -38px;
+}
+#site-menu
+{
+    display: block;
+    _display: inline;
+    width: 40px;
+    height: 60px;
+    float: right;
+    margin:0px;
+}
+#site-menu ul li ul
+{
+    display: none;
+}
+#site-menu ul
+{
+    display: block;
+    _display: inline;
+    width: 40px;
+    height: 60px;
+    float: right; 
+    cursor: pointer;
+    margin:0px;
+}
+#site-menu >ul>li
+{
+    background-image: url("images/menu.gif");
+    background-repeat:no-repeat;
+    background-position: 0px 0px;
+}
+#site-menu >ul>li:hover
+{
+    background-color: #054c78;
+}
+#site-menu ul li
+{
+    display: block;
+    _display: inline;
+    position: relative;
+    width: 40px;
+    height: 60px;
+    float: right;
+    line-height: 60px;
+    padding:0px;
+}
+#site-menu ul li ul
+{
+    position: absolute;
+    width: 140px;
+    min-height: 30px;
+    height:auto !important;/* new browsers */
+    height: 30px;/* IE6: treaded as min-height */
+    top: -1px;
+    left: -140px;
+    background-color: #fff;
+    background-image: none;
+    z-index: 1;
+    border: 1px solid #000;
+}
+#site-menu ul li ul.root
+{
+    top: 60px;
+    left: -48px;
+}
+#site-menu ul li ul li
+{
+    margin-left: 0px;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    color:#054c78;
+    float: left;
+    border-bottom: 1px solid #000;
+    padding-left: 0px;
+    padding-right: 10px;
+    direction: rtl;
+    text-align: right;
+}
+#site-menu ul li ul li a
+{
+    text-decoration: none;
+    color: inherit;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+#site-menu ul li:hover >ul
+{
+    display: block;
+}
+#site-menu ul li ul li:hover
+{
+    background-color: #054c78;
+    color:#fff;
+}
+#site-menu ul li ul li a:hover
+{
+    color:#fff;
+}
+.linkButton
+{
+    display:none;
+    display:block;
+    background-color:darkorange;
+    width:150px;
+    margin: 0 auto;
+    min-height:30px;
+    line-height:30px;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    border-radius:7px;
+    font-weight:bold;
+    margin-bottom:20px;
+    margin-top:20px;
+}
